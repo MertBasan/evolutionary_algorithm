@@ -24,14 +24,11 @@ class individual:
 
 #formulas provided in specification
 
-
-
 def test_function(ind):
     x=ind.gene
     total=0
     
 
-    # resit formula 1
     # for i in range(0,len(x)):
     #     d=20
     #     total= total + (x[i]*math.sin(sqrt(abs(x[i]))))     
@@ -40,7 +37,6 @@ def test_function(ind):
     
 
     
-    #resit formula 2
     for i in range(0,len(x)):
         d=10
         m=10
